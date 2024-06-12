@@ -1,7 +1,7 @@
 document.getElementById('download-btn').addEventListener('click', function() {
     // Initiate file download
     var link = document.createElement('a');
-    link.href = 'path/to/your/file.zip'; // Update this to the correct path
+    link.href = 'main/Index.html'; // Update this to the correct path
     link.download = 'file.zip'; // This sets the name of the downloaded file
     document.body.appendChild(link);
     link.click();
